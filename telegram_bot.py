@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8691660516:AAHUuDpYknwz5630zrCj7BUro72LJpXxjKQ")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0")) # Set your admin Telegram ID here
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8530668426")) # Set your admin Telegram ID here
 
 GROUPS_DATA_FILE = "groups_data.json"
 BUTTONS_FILE = "buttons.json" # This will be deprecated, buttons will be stored in groups_data.json
